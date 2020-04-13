@@ -52,7 +52,7 @@ a:link {
 header {
     width: 100vw;
     height: 700px;
-    background-image: url("../../assets/photos/denhaag.png");
+    background-image: url("https://cdn.discordapp.com/attachments/696004132862951424/699381259293425724/DenHaag.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -209,7 +209,7 @@ footer {
     height: 200px;
     width: 100vw;
     float: left;
-    background-image: url("../../assets/photos/klus.png");
+    background-image: url("https://cdn.discordapp.com/attachments/696004132862951424/699381254549668012/klus.png");
     margin-top: 20vh;
     background-position: -25% 25%;
 }
