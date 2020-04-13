@@ -206,18 +206,19 @@ footer {
 }
 
 .z-projecten {
-    height: 400px;
+    height: 200px;
     width: 100vw;
     float: left;
     background-image: url("../../assets/photos/klus.png");
     margin-top: 20vh;
+    background-position: -25% 25%;
 }
 
 .projecten-title {
     font-size: 44px;
     font-family:roboto;
     color: #ffffff;
-    margin-top: 100px;
+    margin-top: 11px;
 
 }
 
