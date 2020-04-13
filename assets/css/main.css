@@ -178,7 +178,7 @@ footer {
     background-image: url("../../assets/photos/Endless-Constellation.svg");
     height: 250px;
     width: 100vw;
-    margin-top: 8%;
+    /*margin-top: 8%;*/
 }
 
 .footer-content {
@@ -206,21 +206,19 @@ footer {
 }
 
 .z-projecten {
-    height: 80px;
+    height: 400px;
     width: 100vw;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    background-color: #FF5A5F;
-
+    float: left;
+    background-image: url("../../assets/photos/klus.png");
+    margin-top: 20vh;
 }
 
 .projecten-title {
-    text-align: center;
-    font-size: 18px;
-    font-family: "Open Sans";
-    color: #3C3C3C;
+    font-size: 44px;
+    font-family:roboto;
+    color: #ffffff;
     margin-top: 100px;
+
 }
 
 .projecten-button {
@@ -234,11 +232,13 @@ footer {
     margin-top: 16px;
     transition: .2s ease-in-out;
     cursor: pointer;
-
 }
 
 .projecten-button:hover {
     transition: .2s ease-in-out;
     background-color: white;
     color: #FF5A5F;
+}
+.project-container {
+    margin-left: 18%;
 }
