@@ -39,14 +39,11 @@ a:link {
 }
 
 .logo {
-    font-size: 36px;
-    font-family: 'Open Sans', sans-serif;
-    color: #3C3C3C;
     margin-top: 18px;
-    letter-spacing: 14px;
     cursor: pointer;
     overflow-y: hidden;
     margin-left: 8%;
+
 }
 
 header {
@@ -164,8 +161,9 @@ header {
 }
 
 .cards-details {
-    padding-left: 10%;
-    padding-right: 10%;
+    max-width: 50vw;
+    padding-left: 8%;
+    padding-right: 8%;
     line-height: 1.7;
     font-size: 1.4rem;
     font-weight: 300;
@@ -173,6 +171,117 @@ header {
     color: #3C3C3C;
     text-align: justify-all;
 }
+
+.services-button {
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    border: none;
+    border-radius: 24px;
+    font-family: 'roboto', sans-serif;
+    background-color: #FF5A5F;
+    color: #ffffff;
+    font-size: 19px;
+    margin-bottom: 150px;
+}
+
+
+.recent {
+    width: 960px;
+    margin: 0 auto;
+    padding: 35px 0;
+    font-family: open sans;
+}
+
+.card {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    color: #333;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);    margin-top: 1.5em;
+
+
+}
+
+.card-image {
+    display: block;
+    -webkit-flex: 1 0 50%;
+    -ms-flex: 1 0 50%;
+    flex: 1 0 18%;
+    min-height: 240px;
+    background-position: center;
+    background-size: cover;
+    background-color: #ccc;
+}
+
+
+.card-content {
+    display: block;
+    -webkit-flex: 1 0 50%;
+    -ms-flex: 1 0 50%;
+    flex: 1 0 47%;
+    margin: 0;
+    padding:0 ;
+    background: #fff;
+}
+
+.card-content {
+    padding: 1.5em 1em 1.5em 1.5em;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.card-subtitle {
+    font-family: open sans;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #66CCCC;
+    margin: 0;
+    margin-bottom: 4px;
+    padding: 0;
+    font-weight: 400;
+}
+
+.card-title {
+    font-family: 'open sans';
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    color: #333;
+}
+
+.card-title a {
+    color: #333;
+    text-decoration: none;
+    transition: ease 500ms all;
+}
+
+.card-title a:hover {
+    color: #66cccc;
+    text-decoration: none;
+}
+
+.card-body {
+    font-family: open sans;
+    display: block;
+}
+
+.read-more {
+    margin-top: 1.5rem;
+    text-align: right;
+    color: #333;
+    padding-right: 30px;
+}
+
+.read-more-a {
+    color: #333;
+    opacity: .6;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
 
 .z-projecten {
     height: 200px;
@@ -219,6 +328,8 @@ footer {
     height: 250px;
     width: 100vw;
     /*margin-top: 8%;*/
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .footer-content {
@@ -226,6 +337,7 @@ footer {
     display: flex;
     align-content: center;
     justify-content: space-evenly;
+
 
 }
 
