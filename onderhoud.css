@@ -1,3 +1,24 @@
+.onderhoud {
+    margin: auto;
+    padding: 45px;
+    width: 45%;
+    margin-top: 62px;
+    border: 2px solid #FF5A5F;
+}
+.onderhoud-title {
+    text-align: center;
+    font-family: roboto;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+
+.onderhoud-paragraph {
+    font-family: "Assistant Light";
+    color: #3C3C3C;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
 * {
     padding: 0;
     margin: 0;
@@ -138,9 +159,10 @@ header {
 
 .cards {
     display: flex;
-    margin: 25px auto;
+    margin: 80px auto;
     justify-content: center;
     align-items: center;
+    background-color: #FF5A5F;
 }
 
 .cards1, cards2, cards3 {
@@ -152,10 +174,11 @@ header {
 
 .cards-icon, .cards-titel, .cards-details {
     padding-top: 20px;
+    color: white;
 }
 
 .cards-icon span {
-    color: #FF5A5F;
+    color: #ffffff;
 }
 
 .cards-titel, .cards-details {
@@ -167,6 +190,7 @@ header {
 .cards-titel {
     font-weight: 800;
     font-size: 2rem;
+    color: white;
 }
 
 .cards-details {
@@ -177,8 +201,9 @@ header {
     font-size: 1.4rem;
     font-weight: 300;
     letter-spacing: 1.5px;
-    color: #3C3C3C;
+    color: #ffffff;
     text-align: justify-all;
+
 }
 
 .services-button {
@@ -188,106 +213,10 @@ header {
     border: none;
     border-radius: 24px;
     font-family: 'roboto', sans-serif;
-    background-color: #FF5A5F;
-    color: #ffffff;
+    background-color: white;
+    color: #000000;
     font-size: 19px;
-    margin-bottom: 150px;
-}
-
-
-.recent {
-    width: 960px;
-    margin: 0 auto;
-    padding: 35px 0;
-    font-family: open sans;
-}
-
-.card {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: relative;
-    color: #333;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);    margin-top: 1.5em;
-
-
-}
-
-.card-image {
-    display: block;
-    -webkit-flex: 1 0 50%;
-    -ms-flex: 1 0 50%;
-    flex: 1 0 18%;
-    min-height: 240px;
-    background-position: center;
-    background-size: cover;
-    background-color: #ccc;
-}
-
-
-.card-content {
-    display: block;
-    -webkit-flex: 1 0 50%;
-    -ms-flex: 1 0 50%;
-    flex: 1 0 47%;
-    margin: 0;
-    padding:0 ;
-    background: #fff;
-}
-
-.card-content {
-    padding: 1.5em 1em 1.5em 1.5em;
-    margin: 0;
-    padding-bottom: 0;
-}
-
-.card-subtitle {
-    font-family: open sans;
-    font-size: 13px;
-    text-transform: uppercase;
-    color: #FF5A5F;
-    margin: 0;
-    margin-bottom: 4px;
-    padding: 0;
-    font-weight: 400;
-}
-
-.card-title {
-    font-family: 'open sans';
-    font-weight: 700;
-    padding: 0;
-    margin: 0;
-    color: #333;
-}
-
-.card-title a {
-    color: #333;
-    text-decoration: none;
-    transition: ease 500ms all;
-}
-
-.card-title a:hover {
-    color: #FF5A5F;
-    text-decoration: none;
-}
-
-.card-body {
-    font-family: open sans;
-    display: block;
-}
-
-.read-more {
-    margin-top: 1.5rem;
-    text-align: right;
-    color: #333;
-    padding-right: 30px;
-}
-
-.read-more-a {
-    color: #333;
-    opacity: .6;
-    text-decoration: none;
-    font-size: 14px;
+    margin-bottom: 22px;
 }
 
 
@@ -297,7 +226,7 @@ header {
     width: 100vw;
     float: left;
     background-image: url("https://cdn.discordapp.com/attachments/696004132862951424/699381254549668012/klus.png");
-    margin-top: 20vh;
+    margin-top: 4vh;
     background-position: -25% 25%;
 }
 
