@@ -1,4 +1,4 @@
-.verhuizen {
+.schilderswerk {
     margin: auto;
     padding: 45px;
     width: 45%;
@@ -6,7 +6,7 @@
     border-radius: 18px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
-.verhuizen-title {
+.schilderswerk-title {
     text-align: center;
     font-family: "Assistant ExtraLight";
     font-size: 59px;
@@ -16,7 +16,7 @@
 
 }
 
-.verhuizen-paragraph {
+.schilderswerk-paragraph {
     font-family: "Assistant Light";
     color: #3C3C3C;
     font-size: 22px;
@@ -80,12 +80,12 @@ a:link {
     }
 }
 
-
 .header {
     width: 100vw;
     height: 225px;
     background-image: url("https://cdn.discordapp.com/attachments/696004132862951424/699381259293425724/DenHaag.png");
 }
+
 
 .dienst-title {
     text-align: center;

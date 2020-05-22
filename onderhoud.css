@@ -2,14 +2,18 @@
     margin: auto;
     padding: 45px;
     width: 45%;
-    margin-top: 62px;
-    border: 2px solid #FF5A5F;
+    margin-top: 31px;
+    border-radius: 18px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 .onderhoud-title {
     text-align: center;
-    font-family: roboto;
-    font-size: 44px;
-    margin-bottom: 30px;
+    font-family: "Assistant ExtraLight";
+    font-size: 59px;
+    color: white;
+    margin-top: 4.8rem;
+    letter-spacing: 4px;
+
 }
 
 .onderhoud-paragraph {
@@ -76,58 +80,12 @@ a:link {
     }
 }
 
-header {
+.header {
     width: 100vw;
-    height: 700px;
+    height: 225px;
     background-image: url("https://cdn.discordapp.com/attachments/696004132862951424/699381259293425724/DenHaag.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-bottom: 2px solid #FF5A5F;
 }
 
-.header-container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding-top: 12%;
-}
-
-.header-title {
-    font-family: "Open Sans";
-    font-size: 52px;
-    text-align: center;
-    color: #ffffff;
-    letter-spacing: 14px;
-}
-
-.header-button__container {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-
-}
-
-.header-button {
-    border: 3px solid white;
-    width: 300px;
-    height: 50px;
-    background-color: transparent;
-    margin-top: 8px;
-    cursor: pointer;
-    color: white;
-    font-size: 33px;
-    letter-spacing: 6px;
-    font-family: "Open Sans";
-    font-weight: 300;
-    overflow-y: hidden;
-    border-radius: 24px;
-}
-
-.fa-chevron-circle-right {
-    font-size: 26px;
-    margin-left: 8px;
-}
 
 .dienst-title {
     text-align: center;

@@ -13,20 +13,20 @@
 <body>
 <main>
     <nav class="navbar">
-        <a class="logo" href="index.html"> <img class="x" src="assets/photos/logoconcept.png" width="290" height="60"></a>
+        <a class="logo" href="index.html"> <img class="x" src="assets/photos/logoconcept.png" width="290"
+                                                height="60"></a>
         <ul class="nav-links">
             <li class="nav-item hvr-underline-from-left"><a style="    color: #3C3C3C;
 " href="verhuizen.html">Verhuizen</a></li>
             <li class="nav-item hvr-underline-from-left"><a style="    color: #3C3C3C;
-" href="#">Onderhoud</a></li>
+" href="onderhoud.html">Onderhoud</a></li>
             <li class="nav-item hvr-underline-from-left"><a style="    color: #3C3C3C;
-" href="#">Schilderswerk</a></li>
+" href="schilderswerk.html">Schilderswerk</a></li>
         </ul>
     </nav>
     <header>
         <div class="header-container">
-            <h1 class="header-title">Lorem impsum <br> <strong style="color: #e1e1e1; font-size: 32px">Lorem
-                impsum</strong></h1>
+            <h1 class="header-title">MultiService <br> <strong style="color: #e1e1e1; font-size: 32px">Voorburg</strong></h1>
         </div>
         <div class="header-button__container">
             <button class="header-button hvr-icon-forward">Projecten<i class="fa fa-chevron-circle-right hvr-icon"></i>
@@ -109,7 +109,7 @@
                             laboris nisi ut aliquip ex ea commodo consequat
                         </p>
                         <div class="post-footer">
-                            <p class="read-more"><a class="read-more-a" href="#">Read more...</a></p>
+                            <p class="read-more"><a class="read-more-a" href="#">Lees meer...</a></p>
                         </div>
                     </section>
                 </section>
@@ -131,7 +131,7 @@
                             laboris nisi ut aliquip ex ea commodo consequat
                         </p>
                         <div class="post-footer">
-                            <p class="read-more"><a class="read-more-a" href="#">Read more...</a></p>
+                            <p class="read-more"><a class="read-more-a" href="#">Lees meer...</a></p>
                         </div>
                     </section>
                 </section>
@@ -153,7 +153,7 @@
                             laboris nisi ut aliquip ex ea commodo consequat
                         </p>
                         <div class="post-footer">
-                            <p class="read-more"><a class="read-more-a" href="#">Read more...</a></p>
+                            <p class="read-more"><a class="read-more-a" href="#">Lees meer...</a></p>
                         </div>
                     </section>
                 </section>
@@ -173,20 +173,36 @@
     <footer>
         <div class="footer-content">
             <div class="links">
-                <li class="f-links "><a class="hvr-underline-from-right">Projecten</a></li>
-                <li class="f-links "><a class="hvr-underline-from-right">Onderhoud</a></li>
-                <li class="f-links"><a class="hvr-underline-from-right">Verhuizen</a></li>
-                <li class="f-links"><a class="hvr-underline-from-right">Schilderswerk</a></li>
+                <li class="f-links "><a onclick="" class="hvr-underline-from-right animate">Projecten</a></li>
+                <li class="f-links "><a href="onderhoud.html" class="hvr-underline-from-right f-items">Onderhoud</a></li>
+                <li class="f-links"><a href="verhuizen.html" class="hvr-underline-from-right f-items">Verhuizen</a></li>
+                <li class="f-links"><a href="schilderswerk.html" class="hvr-underline-from-right f-items">Schilderswerk</a></li>
             </div>
             <div class="between"></div>
             <div class="links">
                 <li class="f-links"><a>patrickbiesot@gmail.com</a></li>
                 <li class="f-links"><a>Louis Couperusstraat 13</a></li>
                 <li class="f-links"><a> 2274XP Voorburg</a></li>
-                <li class="f-links" style="margin-top: 60px"><a><i class="fab fa-whatsapp"></i> +31 612345678</a></li>
+                <li class="f-links" style="margin-top: 0px"><a><i class="fab fa-whatsapp"></i> +31 612345678</a></li>
             </div>
         </div>
     </footer>
 </main>
+<script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+<script>
+    $(".header-button").click(function() {
+        $('html,body').animate({
+                scrollTop: $(".recent").offset().top},
+            'slow');
+    });
+    $(".animate").click(function() {
+        $('html,body').animate({
+                scrollTop: $(".recent").offset().top},
+            'slow');
+    });
+</script>
 </body>
 </html>

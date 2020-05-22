@@ -49,7 +49,9 @@ a:link {
 @media (max-width: 836px) {
     .logo {
         display: none;
+
     }
+
     .nav-links {
         margin: auto;
     }
@@ -96,7 +98,7 @@ header {
     cursor: pointer;
     color: white;
     font-size: 33px;
-    letter-spacing: 6px;
+    letter-spacing: 3px;
     font-family: "Open Sans";
     font-weight: 300;
     overflow-y: hidden;
@@ -178,7 +180,7 @@ header {
     font-weight: 300;
     letter-spacing: 1.5px;
     color: #3C3C3C;
-    text-align: justify-all;
+    text-align: justify;
 }
 
 .services-button {
@@ -191,7 +193,8 @@ header {
     background-color: #FF5A5F;
     color: #ffffff;
     font-size: 19px;
-    margin-bottom: 150px;
+    margin-bottom: 75px;
+    margin-top: 25px;
 }
 
 
@@ -208,7 +211,8 @@ header {
     display: flex;
     position: relative;
     color: #333;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);    margin-top: 1.5em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    margin-top: 1.5em;
 
 
 }
@@ -231,7 +235,7 @@ header {
     -ms-flex: 1 0 50%;
     flex: 1 0 47%;
     margin: 0;
-    padding:0 ;
+    padding: 0;
     background: #fff;
 }
 
@@ -289,7 +293,6 @@ header {
     text-decoration: none;
     font-size: 14px;
 }
-
 
 
 .z-projecten {
@@ -364,4 +367,7 @@ footer {
     background-color: #cccccc;
     width: 1px;
     height: 50;
+    margin-left: 12%;
+    margin-right: 7.5%;
 }
+
