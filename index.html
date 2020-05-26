@@ -2,6 +2,8 @@
 <html lang="en">
 <link href="main.css" rel="stylesheet">
 <link href="hover.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet">
 <head>
     <meta charset="UTF-8">
     <title>Multiservice Voorburg</title>
@@ -16,6 +18,7 @@
         <a class="logo" href="index.html"> <img class="x" src="assets/photos/logoconcept.png" width="290"
                                                 height="60"></a>
         <ul class="nav-links">
+            <li class="responsive"><a style="color: #3C3C3C;" href="index.html">Home</a></li>
             <li class="nav-item hvr-underline-from-left"><a style="    color: #3C3C3C;
 " href="verhuizen.html">Verhuizen</a></li>
             <li class="nav-item hvr-underline-from-left"><a style="    color: #3C3C3C;
@@ -28,7 +31,8 @@
     </nav>
     <header>
         <div class="header-container">
-            <h1 class="header-title">MultiService <br> <strong style="color: #e1e1e1; font-size: 32px">Voorburg</strong></h1>
+            <h1 class="header-title">MultiService <br> <strong style="color: #e1e1e1; font-size: 32px">Voorburg</strong>
+            </h1>
         </div>
         <div class="header-button__container">
             <button class="header-button hvr-icon-forward">Projecten<i class="fa fa-chevron-circle-right hvr-icon"></i>
@@ -120,7 +124,7 @@
                             laboris nisi ut aliquip ex ea commodo consequat
                         </p>
                         <div class="post-footer">
-                            <p class="read-more"><a class="read-more-a" href="Hudson.html">>Lees meer...</a></p>
+                            <p class="read-more"><a class="read-more-a" href="Hudson.html">Lees meer...</a></p>
                         </div>
                     </section>
                 </section>
@@ -185,9 +189,11 @@
         <div class="footer-content">
             <div class="links">
                 <li class="f-links "><a onclick="" class="hvr-underline-from-right animate">Projecten</a></li>
-                <li class="f-links "><a href="onderhoud.html" class="hvr-underline-from-right f-items">Onderhoud</a></li>
+                <li class="f-links "><a href="onderhoud.html" class="hvr-underline-from-right f-items">Onderhoud</a>
+                </li>
                 <li class="f-links"><a href="verhuizen.html" class="hvr-underline-from-right f-items">Verhuizen</a></li>
-                <li class="f-links"><a href="schilderswerk.html" class="hvr-underline-from-right f-items">Schilderswerk</a></li>
+                <li class="f-links"><a href="schilderswerk.html"
+                                       class="hvr-underline-from-right f-items">Schilderswerk</a></li>
             </div>
             <div class="between"></div>
             <div class="links">
@@ -204,14 +210,16 @@
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
         crossorigin="anonymous"></script>
 <script>
-    $(".header-button").click(function() {
+    $(".header-button").click(function () {
         $('html,body').animate({
-                scrollTop: $(".recent").offset().top},
+                scrollTop: $(".recent").offset().top
+            },
             'slow');
     });
-    $(".animate").click(function() {
+    $(".animate").click(function () {
         $('html,body').animate({
-                scrollTop: $(".recent").offset().top},
+                scrollTop: $(".recent").offset().top
+            },
             'slow');
     });
 </script>
