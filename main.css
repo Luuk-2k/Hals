@@ -46,10 +46,50 @@ a:link {
 
 }
 
+.responsive {
+    display: none;
+}
+
 @media (max-width: 969px) {
     .logo {
         display: none;
+    }
 
+    .responsive {
+        text-decoration: none;
+        font-family: 'roboto', sans-serif;
+        outline: none;
+        color: #3C3C3C;
+        margin-right: 22px;
+        font-size: 24px;
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        position: relative;
+        overflow: hidden;
+    }
+
+    .responsive:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        right: 100%;
+        bottom: 0;
+        background: #FF5A5F;
+        height: 2px;
+        -webkit-transition-property: right;
+        transition-property: right;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+    }
+
+    .responsive:hover:before, .responsive:focus:before, .responsive:active:before {
+        right: 0;
     }
 
     .nav-links {
@@ -97,12 +137,19 @@ header {
     margin-top: 8px;
     cursor: pointer;
     color: white;
-    font-size: 33px;
+    font-size: 34px;
     letter-spacing: 3px;
     font-family: "Open Sans";
     font-weight: 300;
     overflow-y: hidden;
     border-radius: 24px;
+}
+
+.header-button:hover {
+    transition: .2s ease-in-out;
+    background-color: white;
+    color: #333333;
+
 }
 
 .fa-chevron-circle-right {
@@ -112,7 +159,8 @@ header {
 
 .dienst-title {
     text-align: center;
-    font-family: "Open Sans Light";
+    font-family: "Open Sans";
+    font-weight: 300;
     color: #3C3C3C;
     font-size: 40px;
     margin-top: 22px;
@@ -195,11 +243,20 @@ header {
     font-size: 19px;
     margin-bottom: 75px;
     margin-top: 25px;
+    transition: .2s ease-in-out;
+
+}
+
+.services-button:hover {
+    transition: .2s ease-in-out;
+    color: white;
+    background-color: #ff3037;
+    cursor: pointer;
 }
 
 
 .recent {
-    width: 960px;
+    width: 65%;
     margin: 0 auto;
     padding: 35px 0;
     font-family: open sans;
@@ -213,8 +270,6 @@ header {
     color: #333;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     margin-top: 1.5em;
-
-
 }
 
 .card-image {
@@ -222,7 +277,7 @@ header {
     -webkit-flex: 1 0 50%;
     -ms-flex: 1 0 50%;
     flex: 1 0 18%;
-    min-height: 240px;
+    min-height: 320px;
     background-position: center;
     background-size: cover;
     background-color: #ccc;
