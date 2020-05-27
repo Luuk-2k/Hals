@@ -165,3 +165,6 @@ section {
     height: 100vh;
     overflow-y: hidden;
 }
+.g-recaptcha {
+    margin-bottom: 12px;
+}
