@@ -105,7 +105,7 @@ input[type=text], select, textarea {
     font-size: 19px;
 }
 
-input[type=email],select, textarea {
+input[type=email], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -147,11 +147,13 @@ input[type=submit]:hover {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 
 }
+
 label {
     font-family: "Assistant ExtraLight";
     font-size: 19px;
 
 }
+
 .contact-title {
     font-family: "Assistant ExtraLight";
     font-size: 41px;
@@ -160,11 +162,14 @@ label {
     margin-bottom: -42px;
     color: white;
 }
+
 section {
-    background-color: #FF5A5F;
     height: 100vh;
     overflow-y: hidden;
+    background-color: #FF5A5F;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
+
 .g-recaptcha {
     margin-bottom: 12px;
 }

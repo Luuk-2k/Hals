@@ -69,15 +69,15 @@ a:link {
 
 .title {
     text-align: center;
-    font-family: "Assistant ExtraLight";
-    color: #3C3C3C;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 200;    color: #3C3C3C;
     font-size: 38px;
 }
 
 .subtitle {
     text-align: center;
-    font-family: "Assistant ExtraLight";
-    color: #3C3C3C;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 200;    color: #3C3C3C;
     font-size: 18px;
 }
 
@@ -92,6 +92,6 @@ a:link {
     margin-top: 10px;
     font-size: 22px;
     color: #3C3C3C;
-    font-family: "Assistant ExtraLight";
-    text-align: justify;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 200;    text-align: justify;
 }

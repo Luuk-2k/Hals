@@ -130,7 +130,8 @@ header {
 
 .diensten-title {
     text-align: center;
-    font-family: "Assistant ExtraLight";
+    font-family: 'Assistant', sans-serif;
+    font-weight: 200;
     font-size: 33px;
     letter-spacing: 3px;
 }
@@ -160,7 +161,8 @@ header {
 .cards-titel, .cards-details {
     color: #3C3C3C;
     text-align: center;
-    font-family: "Assistant ExtraLight";
+    font-family: 'Assistant', sans-serif;
+    font-weight: 200;
 }
 
 .cards-titel {
@@ -174,7 +176,7 @@ header {
     padding-right: 8%;
     line-height: 1.7;
     font-size: 1.4rem;
-    font-weight: 300;
+    font-weight: 200;
     letter-spacing: 1.5px;
     color: #3C3C3C;
     text-align: justify-all;
@@ -208,7 +210,7 @@ header {
     width: 65%;
     margin: 0 auto;
     padding: 35px 0;
-    font-family: open sans;
+    font-family: "open sans", sans-serif;
 }
 
 .card {
@@ -250,7 +252,7 @@ header {
 }
 
 .card-subtitle {
-    font-family: open sans;
+    font-family: 'Assistant', sans-serif;
     font-size: 13px;
     text-transform: uppercase;
     color: #FF5A5F;
@@ -280,8 +282,10 @@ header {
 }
 
 .card-body {
-    font-family: open sans;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 200;
     display: block;
+    font-size: 19px;
 }
 
 .read-more {
@@ -295,7 +299,7 @@ header {
     color: #333;
     opacity: .6;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 22px;
 }
 
 
@@ -310,7 +314,8 @@ header {
 
 .projecten-title {
     font-size: 44px;
-    font-family: roboto;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
     color: #ffffff;
     margin-top: 11px;
 
@@ -332,7 +337,7 @@ header {
 .projecten-button:hover {
     transition: .2s ease-in-out;
     background-color: white;
-    color: #FF5A5F;
+    color: #000000;
 }
 
 .project-container {
@@ -359,7 +364,8 @@ footer {
 
 .f-links {
     color: #ffffff;
-    font-family: "Assistant Light";
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
     text-decoration: none;
     list-style: none;
     font-size: 28px;

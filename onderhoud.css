@@ -6,23 +6,27 @@
     border-radius: 18px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
+
 .onderhoud-title {
     text-align: center;
-    font-family: "Assistant ExtraLight";
     font-size: 59px;
     color: white;
     margin-top: 4.8rem;
     letter-spacing: 4px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
 
 }
 
 .onderhoud-paragraph {
-    font-family: "Assistant Light";
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
     color: #3C3C3C;
     font-size: 22px;
     letter-spacing: 1px;
     text-align: justify;
 }
+
 * {
     padding: 0;
     margin: 0;
@@ -75,6 +79,7 @@ a:link {
     .logo {
         display: none;
     }
+
     .nav-links {
         margin: auto;
     }
@@ -110,7 +115,8 @@ a:link {
 
 .diensten-title {
     text-align: center;
-    font-family: "Assistant ExtraLight";
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
     font-size: 33px;
     letter-spacing: 3px;
 }
@@ -142,7 +148,8 @@ a:link {
 .cards-titel, .cards-details {
     color: #3C3C3C;
     text-align: center;
-    font-family: "Assistant ExtraLight";
+    font-family: 'Assistant', sans-serif;
+    font-weight: 200;
 }
 
 .cards-titel {
@@ -176,7 +183,6 @@ a:link {
     font-size: 19px;
     margin-bottom: 22px;
 }
-
 
 
 .z-projecten {
@@ -239,7 +245,8 @@ footer {
 
 .f-links {
     color: #ffffff;
-    font-family: "Assistant Light";
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
     text-decoration: none;
     list-style: none;
     font-size: 28px;

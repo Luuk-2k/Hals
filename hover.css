@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300&display=swap');
 /* Underline From Left */
 .hvr-underline-from-left {
     display: inline-block;
@@ -151,6 +152,7 @@
 .button-a:visited {
     color: white;
 }
+
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -162,13 +164,16 @@
     -webkit-transition-property: transform;
     transition-property: transform;
 }
+
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
 .responsive {
     display: none;
 }
+
 @media (max-width: 969px) {
     .logo {
         display: none;
@@ -215,3 +220,5 @@
         margin: auto;
     }
 }
+
+
