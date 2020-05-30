@@ -46,23 +46,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         header("Location: FormFailed.html");
     } else {
         // If CAPTCHA is successfully completed...
-
-
         if (isset($_POST['submit'])) {
             $name = $_POST['name'];
             $subject = $_POST['subject'];
             $mailFrom = $_POST['mail'];
             $message = $_POST['message'];
 
-            $mailTo = "grimrain@yahoo.com";
+            $mailTo = "redicefn@gmail.com";
             $headers = "Van: " . $mailFrom;
-            $txt = "Je hebt een email ontvangen van " . $name . ".\n\n" . $message;
+
+            $txt = "Je hebt een email ontvangen van " . $name . ".\n\n" . "Email is: " . $mailFrom . ".\n\n" . $message;
 
 
-            mail($mailTo, $subject, $txt, $headers);
+            mail($mailTo, $subject, $txt, $mailFrom, $headers);
             header("Location: FormSucceed.html");
         }
-        echo '<br><p>CAPTCHA was completed successfully!</p><br>';
     }
 } else {
 }

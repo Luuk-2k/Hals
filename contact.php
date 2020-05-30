@@ -39,7 +39,7 @@
                 <input type="text" id="fname" name="name" placeholder="Uw naam" required>
 
                 <label for="lname">E-Mail</label>
-                <input type="email" id="lname" name="mail" placeholder="Uw E-Mail" required>
+                <input type="email" id="mail" name="mail" placeholder="Uw E-Mail" required>
 
                 <label for="subject">Onderwerp</label>
                 <input type="text" id="subject" name="subject" placeholder="Uw onderwerp" required>

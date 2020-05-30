@@ -6,6 +6,7 @@
     border-radius: 18px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
+
 .verhuizen-title {
     text-align: center;
     font-family: "Assistant ExtraLight";
@@ -23,6 +24,8 @@
     letter-spacing: 1px;
     text-align: justify;
 }
+
+
 * {
     padding: 0;
     margin: 0;
@@ -75,6 +78,7 @@ a:link {
     .logo {
         display: none;
     }
+
     .nav-links {
         margin: auto;
     }
@@ -176,7 +180,6 @@ a:link {
     font-size: 19px;
     margin-bottom: 22px;
 }
-
 
 
 .z-projecten {
