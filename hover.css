@@ -222,3 +222,57 @@
 }
 
 
+.navbar {
+    display: flex;
+    width: 100vw;
+    height: 130px;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 2px solid #FF5A5F;
+}
+
+.nav-links {
+    margin-top: 51px;
+    margin-right: 4%;
+    overflow-y: hidden;
+}
+
+.nav-item {
+    display: inline;
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    outline: none;
+    color: #3C3C3C;
+    margin-right: 22px;
+    font-size: 24px;
+}
+
+.nav-item:visited {
+    color: #3C3C3C;
+}
+
+a:link {
+    text-decoration: none;
+    color: #3C3C3C;
+}
+
+.logo {
+    margin-top: 2px;
+    cursor: pointer;
+    overflow-y: hidden;
+    margin-left: 8%;
+}
+@media (max-width: 969px) {
+    .logo {
+        display: none;
+    }
+
+    .nav-links {
+        margin: auto;
+    }
+}
+
+@media (max-width: 969px) {
+    .logo {
+        display: none;
+    }

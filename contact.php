@@ -15,8 +15,8 @@
 <body>
 <main>
     <nav class="navbar">
-        <a class="logo" href="index.html"> <img class="x" src="photos/logoconcept.png" width="290"
-                                                height="60"></a>
+    <a class="logo" href="index.html"><img class="x" height="126" src="photos/multiservice.png"
+                                                width="150"></a>
         <ul class="nav-links">
             <li class="responsive"><a href="index.html" style="color: #3C3C3C;">Home</a></li>
             <li class="nav-item hvr-underline-from-left"><a style="    color: #3C3C3C;
